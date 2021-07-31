@@ -1,0 +1,41 @@
+body {
+		overflow-x: hidden;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: flex-start;
+	 	font-style: normal;
+	 	font-weight: normal;
+	 	background-image: linear-gradient(to right, black , #919dab);
+}  
+.navbar-light .navbar-brand {
+   color: white
+}  
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.sci {
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  color: black;
+  bottom:-100px;
+  right: 600px;
+}
+.sci h3 {
+  font-weight: 300;
+  font-family: 'Rubik', sans-serif;
+}
+.sci li {
+  list-style: none;
+  margin-left: 20px;
+}
+.sci li img {
+  max-width: 30px;
+}

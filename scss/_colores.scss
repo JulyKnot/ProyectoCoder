@@ -1,0 +1,93 @@
+@import "boxM";
+@import "tamanios";
+@import "responsive";
+$grisAzul:#627378;
+$grisAzulOscuro:#3d4a4e;
+$blanco:white;
+$negro:black;
+$grisOscuro: #333;
+$azul:blue;
+$fondoInsta:#c13584;
+$fondoMaps:lightgreen;
+$grisClaro :#eee;
+$fondoNav: #919dab;
+
+body {
+	background-color:$grisAzul;
+	overflow-x:hidden;
+}
+.container-fluid {
+	margin:0;
+	padding:0;
+}
+#carrusel {
+	background-color : $grisAzul;
+}
+#carrusel {
+	padding-top: $padding;
+}
+h2 {
+	color : $blanco;
+	font-family: 'Rubik', sans-serif;
+}
+.texto__destacadas--tamanio{
+	color : $blanco;
+	font-size: $textoDesta;
+	font-family: 'Rubik', sans-serif;
+}
+nav {
+	background-image: linear-gradient(to right, $negro, $fondoNav);
+}
+.navbar-light .navbar-brand {
+   color: $blanco;
+   text-shadow: 0 0 20px $blanco;
+} 
+.navbar-light .navbar-nav .nav-link {
+    color: $blanco;
+} 
+.footer {
+	position:relative;
+	padding-left: 500px;
+	color : $blanco;
+	font-family: 'Rubik', sans-serif;
+	font-style:italic;
+}
+.footer h5{
+	@media only screen and (max-width:767px){
+	color:$blanco;
+	text-align:center;
+	}
+}
+.icon {
+	transform: translate(630px,55px);
+}
+.icon ul li {
+	display: inline;
+	width: 40px;
+	height: 40px;
+	background-color: $grisClaro;
+	border-radius: 35px;
+	margin: auto 30px ;
+	text-align: center;
+	line-height: 70px;
+	font-size: 25px;
+	border:3px solid $grisClaro;
+	color: $grisOscuro;
+	cursor: pointer;
+	transition: .3s;
+}
+.icon ul li:nth-child(1):hover {
+	background-color: blue;
+	border-radius: 50%;
+	color: $grisClaro;
+}
+.icon ul li:nth-child(2):hover {
+	background-color:$fondoInsta;
+	border-radius: 50%;
+	color: $grisClaro;
+}
+.icon ul li:nth-child(3):hover {
+	background-color:$fondoMaps;
+	border-radius: 50%;
+	color: red;
+}
