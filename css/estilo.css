@@ -100,7 +100,7 @@ nav {
   max-width: 30px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px)  {
   .text-box h5 {
     font-size: 15px;
   }
@@ -109,7 +109,7 @@ nav {
   }
   .footer h5 {
     color: white;
-    text-align: center; } }
+    text-align: center; }
 
 #carrusel h2 {
   padding-left: 15px;
@@ -117,4 +117,16 @@ nav {
 }
   p {
   margin-left: 15px;
-  }
+}
+.small-icon1 {
+  left:-100px;
+  top: -50px;
+  z-index: -1;
+}
+.small-icon2 {
+  width: 120px;
+  left: 225px;
+  transform: rotate(25deg);
+  top: 320px;
+}
+}
