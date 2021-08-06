@@ -9,8 +9,7 @@ body {
   background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);
   overflow-x: hidden; }
 
-#carrusel {
-  background:transparent; 
+#carrusel { 
   padding-top: 100px; }
 
 h2 {
@@ -68,7 +67,7 @@ nav {
 .small-icon2 {
     width: 400px;
     position: absolute;
-    right: -400px;
+    right: -290px;
     bottom: -50px;
     opacity: 0.3;
 }
@@ -80,13 +79,19 @@ nav {
     opacity: 0.5;
     transform: rotate(45deg);
 }
+.small-icon4{
+  width: 250px;
+  position: absolute;
+  right: 450px;
+  top: 1200px;
+}
   .sci {
   position: absolute;
   display: flex;
   justify-items: center;
   color: white;
-  bottom:-610px;
-  right: 610px;
+  bottom:-880px;
+  right: 640px;
 }
 .sci h3 {
   font-weight: 300;
@@ -99,7 +104,7 @@ nav {
 .sci li img {
   max-width: 30px;
 }
-
+/*Mobile*/
 @media only screen and (max-width: 767px)  {
   .text-box h5 {
     font-size: 15px;
@@ -128,5 +133,10 @@ nav {
   left: 225px;
   transform: rotate(25deg);
   top: 320px;
+}
+.small-icon4 {
+  width: 100px;
+  left: 220px;
+  top: 150px;
 }
 }
