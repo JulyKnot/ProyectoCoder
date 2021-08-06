@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-body {
-  background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);;
-  overflow-x: hidden; }
 
 .container-fluid {
   margin: 0;
   padding: 0; }
 
-#carrusel {
-  background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c); }
+body {
+  background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);;
+  overflow-x: hidden; }
 
 #carrusel {
+  background:transparent; 
   padding-top: 100px; }
 
 h2 {
@@ -20,14 +19,32 @@ h2 {
   font-family: 'Satisfy', cursive; }
   
   p {
-  margin-left: 15px;
-  }
-
-.texto__destacadas--tamanio {
+  margin-left: 15px; 
   color: white;
   font-size: 20px;
-  font-family: 'Rubik', sans-serif; }
-
+  }
+.col {
+  margin: 20px 0px;
+  flex-basis: 50%;
+  min-width: 300px;
+  height: 100%;
+  position: relative;
+}
+.text-box{
+  max-width: 400px;
+  margin-top: 150px;
+}
+.text-box h5{
+  font-size: 18px;
+  color:#fff;
+}
+.text-box h1 {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 65px;
+  color: #fff;
+}
 nav {
   background-image: linear-gradient(to right, black, #919dab); }
 
@@ -43,7 +60,7 @@ nav {
   display: flex;
   justify-items: center;
   color: white;
-  bottom:-1120px;
+  bottom:0px;
   right: 600px;
 }
 .sci h3 {
