@@ -16,36 +16,36 @@ h2 {
   font-size: 45px;
   margin-left: 20px;
   color: white;
-  font-family: 'Satisfy', cursive; 
-}
+  font-family: 'Satisfy', cursive; }
+  
   p {
   margin-left: 15px; 
   color: white;
-  font-size: 20px;
-  }
+  font-size: 20px; }
+
 .col {
   margin: 20px 0px;
   flex-basis: 50%;
   min-width: 300px;
   height: 100%;
-  position: relative;
-}
+  position: relative; }
+
 .text-box{
   max-width: 400px;
-  margin-top: 150px;
-}
+  margin-top: 150px; }
+
 .text-box h5{
   font-size: 15px;
-  color:#fff;
-}
+  color:#fff; }
+
 .text-box h1 {
   font-size: 60px;
   font-weight: 100;
   letter-spacing: 3px;
   line-height: 65px;
   color: #fff;
-  font-family: 'Cinzel', serif;
-}
+  font-family: 'Cinzel', serif; }
+
 nav {
   background-image: linear-gradient(to right, black, #919dab); }
 
@@ -54,56 +54,56 @@ nav {
   text-shadow: 0 0 20px white; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white; 
-}
+  color: white; }
+
 .small-icon1 {
     width: 200px;
     position: absolute;
     left: -210px;
     top: 80px;
     opacity: 0.3;
-    transform: rotate(30deg);
-}
+    transform: rotate(30deg); }
+
 .small-icon2 {
     width: 400px;
     position: absolute;
     right: -290px;
     bottom: -50px;
-    opacity: 0.3;
-}
+    opacity: 0.3; }
+
 .small-icon3 {
     width: 250px;
     position: absolute;
     right: 350px;
     top:380px;
     opacity: 0.5;
-    transform: rotate(45deg);
-}
+    transform: rotate(45deg); }
+
 .small-icon4{
-  width: 250px;
+   width: 250px;
   position: absolute;
   right: 450px;
-  top: 1200px;
-}
+  top: 1200px; }
+
   .sci {
   position: absolute;
   display: flex;
   justify-items: center;
   color: white;
   bottom:-880px;
-  right: 640px;
-}
+  right: 640px; }
+
 .sci h3 {
   font-weight: 300;
-  font-family: 'Rubik', sans-serif;
-}
+  font-family: 'Rubik', sans-serif; }
+
 .sci li {
   list-style: none;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
+
 .sci li img {
-  max-width: 30px;
-}
+  max-width: 30px; }
+
 /*Mobile*/
 @media only screen and (max-width: 767px)  {
   .text-box h5 {
@@ -112,10 +112,6 @@ nav {
   .text-box h1 {
     font-size: 40px;
   }
-  .footer h5 {
-    color: white;
-    text-align: center; }
-
 #carrusel h2 {
   padding-left: 15px;
   font-size: 45px; 
@@ -135,8 +131,15 @@ nav {
   top: 320px;
 }
 .small-icon4 {
-  width: 100px;
-  left: 220px;
-  top: 150px;
+  width: 135px;
+  left: 120px;
+  top: 1280px;
+}
+.sci {
+  left: 20px;
+  bottom: -910px;
+}
+.sci h3 {
+  font-size: 30px;
 }
 }
