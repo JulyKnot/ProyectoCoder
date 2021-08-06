@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Martel:wght@200&family=Satisfy&display=swap');
 
 .container-fluid {
   margin: 0;
   padding: 0; }
 
 body {
-  background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);;
+  background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);
   overflow-x: hidden; }
 
 #carrusel {
@@ -33,17 +34,20 @@ h2 {
 .text-box{
   max-width: 400px;
   margin-top: 150px;
+  border: 10px solid transparent rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
 }
 .text-box h5{
-  font-size: 18px;
+  font-size: 15px;
   color:#fff;
 }
 .text-box h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 100;
   letter-spacing: 3px;
   line-height: 65px;
   color: #fff;
+  font-family: 'Cinzel', serif;
 }
 nav {
   background-image: linear-gradient(to right, black, #919dab); }
@@ -60,8 +64,8 @@ nav {
   display: flex;
   justify-items: center;
   color: white;
-  bottom:0px;
-  right: 600px;
+  bottom:-610px;
+  right: 610px;
 }
 .sci h3 {
   font-weight: 300;
@@ -76,6 +80,12 @@ nav {
 }
 
 @media only screen and (max-width: 767px) {
+  .text-box h5 {
+    font-size: 15px;
+  }
+  .text-box h1 {
+    font-size: 40px;
+  }
   .footer h5 {
     color: white;
     text-align: center; } }

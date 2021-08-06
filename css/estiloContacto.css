@@ -1,11 +1,12 @@
-body {
-		overflow-x: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Martel:wght@200&family=Satisfy&display=swap');
 .container-fluid {
 	margin: 0;
 	padding: 0;
 }
-
+body {
+    overflow-x: hidden;
+    background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);
+}
 nav {
  		display: flex;
  		flex-direction: row;
@@ -19,6 +20,11 @@ nav {
 }  
 .navbar-light .navbar-nav .nav-link {
     color: white;
+}
+h1 {
+   font-family: 'Cinzel', serif;
+   margin-top: 15px;
+
 }
 .sci {
   position: absolute;
