@@ -152,10 +152,9 @@ nav {
 	.contenido {
 		grid-template-columns: 1fr; }
 
-		.sci{
-			left: 0px;
-			top: 680px;
-		}
+	.sci{
+		left: 0px;
+		top: 680px; }
 
 	.content {
 		padding: 40px; }

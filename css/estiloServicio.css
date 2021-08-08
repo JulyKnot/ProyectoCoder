@@ -2,47 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
 .container-fluid {
 	margin: 0;
-	padding: 0;
-}
+	padding: 0; }
+
 body {
 	overflow-x: hidden;
-	background-color: #91A4B8 !important;
-}
+	background-color: #91A4B8 !important; }
+
 #colornav{
-	background-image: linear-gradient(to right, black , #919dab);
-}
+	background-image: linear-gradient(to right, black , #919dab); }
+
 nav {
-	background-image: linear-gradient(to right, black , #919dab);
-}
+	background-image: linear-gradient(to right, black , #919dab); }
+
 .navbar-light .navbar-brand {
    color: white;
-   text-shadow : 0 0 20px #fff;
-}  
+   text-shadow : 0 0 20px #fff; }
+
 .navbar-light .navbar-nav .nav-link {
-    color: white;
-}
+    color: white; }
+
 .transform {
-	transform: translate(270px,150px);	
-}
+	transform: translate(270px,150px);	 }
+
 .contenedor {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows: 500px 150px; 
-}	
+	grid-template-rows: 500px 150px;  }
+
 .contenedor div {
-	background-color: #91A4B8;
-	
-}
+	background-color: #91A4B8; }
+
 .gridContainer {
 	display: grid;
 	grid-template-areas: 
 	"itemsProdu itemsProdu";
 	grid-template-columns: 50% 50% ;
-	grid-template-rows: 0px 600px 0px 0px;
-}
+	grid-template-rows: 0px 600px 0px 0px; }
+
 section.itemsProdu {
-	grid-area: itemsProdu;
-}
+	grid-area: itemsProdu; }
+
 .item1 ul {
 	display: flex;
 	justify-content: center;
@@ -51,8 +50,8 @@ section.itemsProdu {
 	letter-spacing: 2px;
 	font-size: 40px;
 	color: white;
-	text-shadow: 0 0 15px #fff;
-}
+	text-shadow: 0 0 15px #fff; }
+
 .item1 {
 	display: flex;
 	flex-direction: column;
@@ -64,8 +63,8 @@ section.itemsProdu {
 	margin-left: 60px;
 	margin-top: 20px;
 	color: white;
-	background-color: green;
-}
+	background-color: green; }
+
 .item2 ul {
 	display: flex;
 	justify-content: center;
@@ -74,8 +73,8 @@ section.itemsProdu {
 	letter-spacing: 2px;
 	font-size: 40px;
 	color: white;
-	text-shadow: 0 0 15px #fff;
-}
+	text-shadow: 0 0 15px #fff; }
+
 .item2 {
 	display: flex;
 	flex-direction: column;
@@ -88,38 +87,38 @@ section.itemsProdu {
 	margin-top: 20px;
 	color: white;
 	border: none;
-	background-color: #91A4B8;
-}
+	background-color: #91A4B8; }
+
 h3 {
 	font-family: 'Alegreya Sans', sans-serif;
 	text-align: center;
-	color: white;
-}
+	color: white; }
+
 #precio {
-	font-weight: bold;
-}
+	font-weight: bold; }
+
 .sci {
   position: absolute;
   display: flex;
   justify-items: center;
   color: white;
   bottom:-10px;
-  right: 600px;
-}
+  right: 600px; }
+
 .sci h3 {
   font-weight: 300;
-  font-family: 'Rubik', sans-serif;
-}
+  font-family: 'Rubik', sans-serif; }
+
 .sci li {
   list-style: none;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
+
 .sci li img {
-  max-width: 30px;
-}
+  max-width: 30px; }
+
 .footer {
-	margin-top: 60px;
-}
+	margin-top: 60px; }
+
 /*VERSION MOBILE*/
 @media only screen and (min-width: 0px) and (max-width: 767px){
 	.contenedor{
@@ -130,11 +129,11 @@ h3 {
 	"carusel"
 	"footer";
 	grid-template-columns:1fr;
-	grid-template-rows: 60rem 10rem 10rem 12rem;
-}
+	grid-template-rows: 60rem 10rem 10rem 12rem; }
+
 .transform {
-	display: none;
-}
+	display: none; }
+
 .item1 {
 	display: flex;
 	flex-direction: column;
@@ -146,13 +145,13 @@ h3 {
 	font-size: 20px;
 	margin-left: 15px;
 	margin-top: 0px;
-	grid-area: "item1";
-}
+	grid-area: "item1"; }
+
 .item1 ul {
 	font-size: 35px;
-	margin-left: -45px;
-	margin-top: 30px;
-}
+  margin-left: 50px;
+	margin-top: 100px; }
+
 .item2 {
 	display: flex;
 	flex-direction: column;
@@ -163,19 +162,19 @@ h3 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	margin-left: 10px;
-	grid-area: "item2";
-}
+	grid-area: "item2"; }
+
 .item2 ul {
 	font-size: 35px;
-	margin-left: -40px;
-}
+	margin-left: -40px; }
+
 .container-fluid {
-	grid-area: "carusel";
-}
+	grid-area: "carusel"; }
+
 .footer {
 		grid-area: "footer";
-		padding-bottom: 60px;
-}
+		padding-bottom: 60px; }
+
 .sci {
   position: absolute;
   display: flex;
@@ -183,17 +182,17 @@ h3 {
   color: white;
   bottom:-565px;
   right: 80px;
-  grid-area: "footer";
-}
+  grid-area: "footer"; }
+
 .sci h3 {
   font-weight: 300;
-  font-family: 'Rubik', sans-serif;
-}
+  font-family: 'Rubik', sans-serif; }
+
 .sci li {
   list-style: none;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
+
 .sci li img {
-  max-width: 30px;
-}
+  max-width: 30px; }
+  
 }
