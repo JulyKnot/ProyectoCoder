@@ -13,9 +13,11 @@ nav {
  		flex-direction: row;
  		justify-content: flex-start;
 	 	font-style: normal;
-	 	font-weight: normal;
-	 	background-image: linear-gradient(to right, black , #919dab); }
+	 	font-weight: normal; }
 
+.bg-light {
+   background-color: transparent!important; }
+   
 .navbar-light .navbar-brand {
    color: white }
 

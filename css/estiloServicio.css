@@ -8,11 +8,8 @@ body {
 	overflow-x: hidden;
 	background-color: #91A4B8 !important; }
 
-#colornav{
-	background-image: linear-gradient(to right, black , #919dab); }
-
-nav {
-	background-image: linear-gradient(to right, black , #919dab); }
+.bg-light {
+  background-color: transparent!important; }
 
 .navbar-light .navbar-brand {
    color: white;

@@ -9,6 +9,9 @@ body {
   background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);
   overflow-x: hidden; }
 
+.bg-light {
+  background-color: transparent!important; }
+
 #carrusel { 
   padding-top: 100px; }
 
@@ -45,9 +48,6 @@ h2 {
   line-height: 65px;
   color: #fff;
   font-family: 'Cinzel', serif; }
-
-nav {
-  background-image: linear-gradient(to right, black, #919dab); }
 
 .navbar-light .navbar-brand {
   color: white;

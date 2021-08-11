@@ -1,5 +1,6 @@
 body {
-		overflow-x: hidden; }
+	overflow-x: hidden; 
+	background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c); }
 
 .container-fluid {
 	margin: 0;
@@ -10,8 +11,10 @@ nav {
  	flex-direction: row;
 	justify-content: flex-start;
 	font-style: normal;
-	font-weight: normal;
-	background-image: linear-gradient(to right, black , #919dab); }
+	font-weight: normal; }
+
+.bg-light {
+   background-color: transparent!important; }
 
 .navbar-light .navbar-brand {
    color: white }
@@ -41,7 +44,7 @@ nav {
 
 .content p {
 	font-size: 1.1em;
-	color: #777;
+	color: black;
 	line-height: 1.8em;
 	font-family: 'Rubik', sans-serif; }
 
