@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Martel:wght@200&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 body {
 	overflow-x: hidden; 
 	background: linear-gradient(45deg,#113537,#547A8C,#96616B); }
@@ -48,7 +49,7 @@ nav {
 .content h2 {
 	font-size: 4em;
 	margin-right: 45px;
-	font-family: 'Rubik', sans-serif;
+	font-family: "Caveat",sans-serif; 
 	font-style: bold; }
 
 .content p {
@@ -59,7 +60,9 @@ nav {
 
 .images {
 	display: flex;
-	flex-wrap: wrap; }
+	flex-wrap: wrap; 
+	margin-right: 25px;
+	border: 1px solid black;}
 
 .images .imgBx {
 	position: relative;
