@@ -91,13 +91,13 @@ h3:after{
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color: blue; }
+  background-color: black; }
 
   .field{
   width: 100%;
   outline: none;
   border: 2px solid rgba(0, 0, 0, 0);
-   padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   background-color: rgba(230, 230, 230, 0.6);
   font-size: 1.1rem; 
   margin-bottom: 22px; 
@@ -152,7 +152,7 @@ transition: .3s; }
     opacity: 0.5;
     transform: rotate(45deg);
     z-index: -1; }
-    
+
 footer {
     margin-top: 25px;
     background: #111;
