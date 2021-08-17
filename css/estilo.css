@@ -6,25 +6,26 @@
   padding: 0; }
 
 body {
-  background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c);
+  background: linear-gradient(45deg,#113537,#547A8C,#96616B);
   overflow-x: hidden; }
 
 .bg-light {
   background-color: transparent!important; }
 
 #carrusel { 
-  padding-top: 100px; 
-  }
+  margin-top: 200px;
+  margin-right: 25px;
+  margin-left: 25px; }
 
 h2 {
   font-size: 45px;
   margin-left: 20px;
-  color: white;
+  color: #F2F4F3;
   font-family: 'Satisfy', cursive; }
   
   p {
   margin-left: 15px; 
-  color: white;
+  color: #F2F4F3;
   font-size: 20px; }
 
 .col {
@@ -40,14 +41,14 @@ h2 {
 
 .text-box h5{
   font-size: 15px;
-  color:#fff; }
+  color:#F2F4F3; }
 
 .text-box h1 {
   font-size: 60px;
   font-weight: 100;
   letter-spacing: 3px;
   line-height: 65px;
-  color: #fff;
+  color: #F2F4F3;
   font-family: 'Cinzel', serif; }
 
 .navbar-light .navbar-brand {
@@ -87,30 +88,70 @@ h2 {
     opacity: 0.5;
     transform: rotate(45deg); }
 
-.small-icon4{
-   width: 250px;
-  position: absolute;
-  right: 450px;
-  top: 1200px; }
+footer {
+    margin-top: 25px;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Cinzel', serif;;
+    padding-top: 40px;
+    color: #fff; }
 
-  .sci {
-  position: absolute;
-  display: flex;
-  justify-items: center;
-  color: white;
-  bottom:-880px;
-  right: 640px; }
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
 
-.sci h3 {
-  font-weight: 300;
-  font-family: 'Rubik', sans-serif; }
+    .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem; }
 
-.sci li {
-  list-style: none;
-  margin-left: 20px; }
+    .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px; }
 
-.sci li img {
-  max-width: 30px; }
+    .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem 1rem 0rem; }
+
+    .socials li{
+    margin: 0 10px; }
+
+    .socials a{
+    text-decoration: none;
+    color: #fff; }
+
+    .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease; }
+
+    .socials a:hover i{
+    color: aqua; }
+
+    .footer-bottom {
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center; }
+
+    .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize; }
+
+    .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200; }
 
 /*Mobile*/
 @media only screen and (max-width: 767px)  {

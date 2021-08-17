@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Martel:wght@200&family=Satisfy&display=swap');
 
 
 
@@ -10,7 +11,7 @@
 
 body {
 	overflow-x: hidden;
-	background: linear-gradient(45deg,#735092,#ff8466,#ff6f4c); }
+	background: linear-gradient(45deg,#113537,#547A8C,#96616B); }
 
 .bg-light {
   background-color: transparent!important; }
@@ -36,7 +37,7 @@ body {
 	background-color: #FEA47F;
 	border-radius: 10px;
 	padding: 1em;
-	box-shadow: 0px 10px 5px #cd6133;
+	box-shadow: 0px 10px 5px #003844;
 	text-align: center;
 	font-family: Alegreya, sans-serif; }
 
@@ -79,27 +80,70 @@ body {
 	margin-bottom: 15px;
 	font-family: "Caveat",sans-serif; }
 
-.sci {
-  position: absolute;
-  display: flex;
-  justify-items: center;
-  color: white;
-  bottom:-10px;
-  right: 600px; }
+footer {
+    margin-top: 25px;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Cinzel', serif;;
+    padding-top: 40px;
+    color: #fff; }
 
-.sci h3 {
-  font-weight: 300;
-  font-family: 'Rubik', sans-serif; }
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
 
-.sci li {
-  list-style: none;
-  margin-left: 20px; }
+    .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem; }
 
-.sci li img {
-  max-width: 30px; }
+    .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px; }
 
-.footer {
-	margin-top: 60px; }
+    .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem 1rem 0rem; }
+
+    .socials li{
+    margin: 0 10px; }
+
+    .socials a{
+    text-decoration: none;
+    color: #fff; }
+
+    .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease; }
+
+    .socials a:hover i{
+    color: aqua; }
+
+    .footer-bottom {
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center; }
+
+    .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize; }
+
+    .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200; }
 
 /*VERSION MOBILE*/
 @media only screen and (min-width: 0px) and (max-width: 767px){
