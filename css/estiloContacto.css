@@ -225,14 +225,21 @@ footer {
 @media screen and (max-width: 767px){
   .contact-box{
     grid-template-columns: 1fr;
-  }
-  .container-fluid{
-    margin: 0;
-    padding: 0;
-  }
+    height: 65vh; }
+
+  .container {
+    height: 65vh; }
+
+  .right {
+    padding: 15px 45px;
+    background-color: white; }
+
+  .area {
+    min-height: 90px; }
+
   .left {
-    height: 120px;
-  }
+    height: 85px; }
+
   .small-icon1 {
     width: 200px;
     position: absolute;
@@ -240,47 +247,26 @@ footer {
     top: 100px;
     opacity: 0.3;
     transform: rotate(30deg);
-    z-index: -1;}
+    z-index: -1; }
 
-.small-icon2 {
+  .small-icon2 {
     width: 180px;
     position: absolute;
     left: 0px;
     bottom: 90px;
     opacity: 0.3;
     transform: rotate(30deg); 
-    z-index: -1;}
+    z-index: -1; }
 
-.small-icon3 {
+  .small-icon3 {
     width:120px;
     position: absolute;
     right: 15px;
     top:260px;
     opacity: 0.5;
     transform: rotate(45deg);
-    z-index: -1;}
-}
+    z-index: -1; }
 
-
-
-
-
-
-/*.sci {
-  position: absolute;
-  display: flex;
-  justify-items: center;
-  color: black;
-  bottom:-100px;
-  right: 600px; }
-
-.sci h3 {
-  font-weight: 300;
-  font-family: 'Rubik', sans-serif; }
-
-.sci li {
-  list-style: none;
-  margin-left: 20px; }
-  
-.sci li img {
-  max-width: 30px; }*/
+  footer {
+    margin-top: 55px; }
+  }

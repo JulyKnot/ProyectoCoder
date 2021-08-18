@@ -23,12 +23,12 @@ body {
 h2 {
   font-size: 45px;
   margin-left: 20px;
-  color: #F2F4F3;
+  color: #FAF3DD;
   font-family: 'Satisfy', cursive; }
   
   p {
   margin-left: 15px; 
-  color: #F2F4F3;
+  color: #FAF3DD;
   font-size: 20px; }
 
 .col {
@@ -117,7 +117,8 @@ footer {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px; }
+    font-size: 14px;
+    color: white;  }
 
     .socials{
     list-style: none;
@@ -149,7 +150,8 @@ footer {
     .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    color: white;  }
 
     .footer-bottom span{
     text-transform: uppercase;

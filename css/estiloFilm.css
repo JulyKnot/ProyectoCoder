@@ -56,12 +56,13 @@ nav {
 	padding: 60px; }
 
 .content h2 {
+	color: #FAF3DD;
 	font-size: 4em;
 	font-family: 'Caveat', cursive; }
 
 .content p {
 	font-size: 1.1em;
-	color: black;
+	color: #FAF3DD;
 	line-height: 1.8em;
 	font-family: 'Rubik', sans-serif; }
 
@@ -111,12 +112,13 @@ nav {
 	padding: 60px; }
 
 .contentDos h2 {
+	color:#FAF3DD;
 	font-size: 4em;
   font-family: 'Caveat', cursive; }
 
 .contentDos p {
 	font-size: 1.1em;
-	color: black;
+	color:#FAF3DD;
 	line-height: 1.8em;
 	font-family: 'Rubik', sans-serif; }
 

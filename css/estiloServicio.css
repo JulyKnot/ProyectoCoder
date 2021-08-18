@@ -43,11 +43,10 @@ body {
   margin-bottom: 80px; }
 
 .importante {
- font-family: Alegreya, sans-serif;
- font-weight: 700;
- background-color: rgba(255, 255, 255, 0.7);
- padding: 5em;
- border-radius: 8px; }
+  font-weight: 550;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5em;
+  border-radius: 8px; }
 
 .importante h1 {
   font-size:60px;

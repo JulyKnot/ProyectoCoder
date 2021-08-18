@@ -50,6 +50,7 @@ nav {
 	padding:60px; }
 
 .content h2 {
+	color: #FAF3DD;
 	font-size: 4em;
 	margin-right: 45px;
 	font-family: "Caveat",sans-serif; 
@@ -57,7 +58,7 @@ nav {
 
 .content p {
 	font-size: 1.1em;
-	color: black;
+	color: #FAF3DD;
 	line-height: 1.8em;
 	font-family: 'Rubik', sans-serif; }
 
