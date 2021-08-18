@@ -38,9 +38,10 @@ nav {
 	grid-template-columns: 1fr 1fr ; }
 
 .contenido .box {
-	background: #BBE8F9;
+	background: transparent;
 	height: 100vh;
-	position: relative; }
+	position: relative;
+	margin-bottom: 35px; }
 
 .contenido .box:last-child {
 	background: blue; }
@@ -62,6 +63,8 @@ nav {
 	font-family: 'Rubik', sans-serif; }
 
 .images {
+	margin-right: 25px;
+	border: 1px solid black;
 	display: flex;
 	flex-wrap: wrap; }
 
@@ -91,7 +94,7 @@ nav {
 	grid-template-columns: 1fr 1fr ; }
 
 .contenidoDos .box {
-	background:#FAF4AA;
+	background:transparent;
 	height: 100vh;
 	position: relative; }
 
@@ -115,6 +118,8 @@ nav {
 	font-family: 'Rubik', sans-serif; }
 
 .imagesDos {
+	margin-right: 25px;
+	border: 1px solid black;
 	display: flex;
 	flex-wrap: wrap; }
 
