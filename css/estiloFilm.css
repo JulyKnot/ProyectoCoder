@@ -33,6 +33,9 @@ nav {
    margin-right: 80px;
    font-family: 'Rubik', sans-serif; }
 
+.row {
+  margin-right: 0px!important; }
+
 .contenido {
 	display: grid;
 	grid-template-columns: 1fr 1fr ; }
@@ -212,28 +215,27 @@ nav {
 /*MOBILE*/
 @media (max-width:767px) {
 	.contenido {
-		grid-template-columns: 1fr; }
-
-	.sci{
-		left: 0px;
-		top: 680px; }
+		grid-template-columns: 1fr;
+		margin-left: 8px; }
 
 	.content {
-		padding: 40px; }
+		padding: 40px 20px; }
 
-	.contenido .boxContent {
-		height: 70vh; }
-
-	.content h2{
-		font-size: 40px;
+	.content h2 {
+		font-size: 60px;
 		margin-left: 50px;
 		margin-bottom: 40px; }
 
 	.content p {
     font-size:15px; }
 
+  .images .imgBx {
+			width: 100%;
+			height: 35vh; }
+
  .contenidoDos {
-		grid-template-columns: 1fr; }
+		grid-template-columns: 1fr;
+		margin-left: 8px; }
 
 	.contentDos {
 		padding: 40px; }
@@ -241,11 +243,22 @@ nav {
 	.contenidoDos .boxContentDos {
 		height: 70vh; }
 
-	.contentDos h2{
-		font-size: 40px;
-		margin-left: 50px;
+	.imagesDos .imgBxDos {
+		width: 100%;
+		height: 35vh; }
+
+	.contenido .box {
+		margin-bottom: -20px; }
+	
+	.contentDos h2 {
+		font-size: 60px;
+		margin-top: 25px;
+		margin-left: 30px;
 		margin-bottom: 40px; }
 
 	.contentDos p {
-    font-size:15px;
+    font-size:15px; }
+
+  footer {
+  	margin-top: 50px; }
  }

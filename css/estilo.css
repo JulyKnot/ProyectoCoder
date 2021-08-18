@@ -12,6 +12,9 @@ body {
 .bg-light {
   background-color: transparent!important; }
 
+.row {
+  margin-right: 0px!important; }
+
 #carrusel { 
   margin-top: 200px;
   margin-right: 25px;

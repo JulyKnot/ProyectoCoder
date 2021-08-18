@@ -39,6 +39,9 @@ nav {
    margin-right: 80px;
   font-family: 'Rubik', sans-serif; }
 
+.row {
+  margin-right: 0px!important; }
+
 .container{
   position: relative;
   display: flex;
