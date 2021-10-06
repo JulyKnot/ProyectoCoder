@@ -9,7 +9,7 @@ const productos = [
 { id: 8 , produ :'Remera', precio: 2000} ] ;
 
 
-alert("Hoy 10% de descuento revelando 2 rollos blanco y negro")
+/*alert("Hoy 10% de descuento revelando 2 rollos blanco y negro")
 let saludo = "Hola! Bienvenido a la tienda , gracias por confiar en nosotros. "
 let producto1 = Number(prompt("Ingrese el precio del primer servicio"))
 let producto2 = Number(prompt("Ingrese el precio del segundo servicio"))
@@ -18,4 +18,18 @@ const suma = (a,b) => a+b;
 const desc =  (x) => x * 0.10;
 
 let total = desc(suma(producto1,producto2));
-alert(saludo + mensaje + '$'+total )
+alert(saludo + mensaje + '$'+total )*/
+
+/*let cartas = document.getElementsByClassName("card")
+
+console.log(cartas[2].innerHTML);*/
+
+let boton = document.getElementById("boton");
+let texto = document.createElement("h4");
+let contador= 1;
+
+boton.onclick = () => {
+	texto.innerHTML += `<h4 class='carrito'>Añadidos al carrito : ${contador} </h4>`;
+document.body.appendChild(texto);
+contador++;
+}

@@ -113,7 +113,7 @@ footer {
     background: #111;
     height: auto;
     width: 100vw;
-    font-family: 'Cinzel', serif;;
+    font-family: 'Cinzel', serif;
     padding-top: 40px;
     color: #fff; }
 
@@ -173,6 +173,21 @@ footer {
     opacity: .4;
     font-weight: 200; }
 
+
+  .carrito{
+    font-family: 'Cinzel', serif;
+    max-width: 500px;
+    color: white;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 18px; 
+    border-radius: 5px;
+    max-width: 400px;
+    background-color:black;
+    display: grid;
+    place-items:center; }
+
+    
 /*VERSION MOBILE*/
 @media only screen and (min-width: 0px) and (max-width: 767px){
     
