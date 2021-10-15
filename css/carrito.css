@@ -1,27 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Martel:wght@200&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
-
+body{
+    background: linear-gradient(45deg,#113537,#547A8C,#96616B)!important; 
+    overflow-x: hidden;}
+     
+nav {
+        display: flex;
+        flex-direction: row;
+       justify-content: flex-start;
+       font-style: normal;
+       font-weight: normal; }
+   
+   .bg-light {
+      background-color: transparent!important; }
+   
+   .navbar-light .navbar-brand {
+     padding-top: 20px;
+     margin-left: 50px; }
+   
+   .navbar-light .navbar-nav .nav-link {
+     padding-top: 25px;
+     font-size: 20px;
+     color: white; }
+   
+    .navbar-nav {
+      margin-left: auto;
+      margin-right: 80px;
+      font-family: 'Rubik', sans-serif; }
+   
 .product-container{
     max-width: 650px;
     justify-content: space-around;
+    font-family: 'Cinzel', sans-serif;
     margin: 0 auto;
-    margin-top: 50px;
-    font-family: 'Cinzel', sans-serif; }
+    color: white;
+    margin-top: 50px; }
 
 .product-container ion-icon{
     font-size: 25px;
-    color: rgb(67, 101, 211);
+    color: rgb(243, 181, 181);
     margin-left: 10px;
-    
+    margin-right: 10px;
     cursor: pointer; }
     
-    .products {
+.product{
+    width: 45%;
+    font-family: 'Cinzel', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray; }
+
+.product ion-icon{
+    cursor: pointer; }
+
+.product span{
+    font-size: 15px; }
+
+.products {
      width: 100%;
+     font-family: 'Cinzel', sans-serif;
     display: flex;
     flex-wrap:wrap; }
 
-    .products img {
-    width:200px;
+.products img {
+    width:120px;
     border-radius: 8px;
     box-shadow: 0px 0px 2px; }
 
@@ -29,26 +77,110 @@
     width: 100%;
     max-width: 650px;
     display: flex;
+    font-family: 'Cinzel', sans-serif;
     justify-content: flex-start;
-    border-bottom: 3px solid lightgray; }
+    border-bottom: 3px solid lightgray;
+    margin: 0 auto; }
 
 .product-title{
     width: 45%; }
 
 .precio{
     width: 15%;
-    
     display: flex;
+    font-family: 'Cinzel', sans-serif;
     align-items: center; }
 
 .cantidad{
     width: 30%;
-    
     display: flex;
     align-items: center; }
 
 .total{
     width: 10%;
+    font-family: 'Cinzel', sans-serif;
     border-bottom: 1px solid lightgray;
     display: flex;
     align-items: center; }
+
+.contenedorTotal{
+    display: flex;
+    font-family: 'Cinzel', sans-serif;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0; }
+
+.conTitulo{
+    width: 30%;
+    font-family: 'Cinzel', sans-serif; }
+
+.cartTotal{
+    width: 10%;
+    font-family: 'Cinzel', sans-serif; }
+
+footer {
+    margin-top: 25px;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Cinzel', serif;;
+    padding-top: 40px;
+    color: #fff; }
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+
+    .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem; }
+
+    .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;  }
+
+    .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem 1rem 0rem; }
+
+    .socials li{
+    margin: 0 10px; }
+
+    .socials a{
+    text-decoration: none;
+    color: #fff; }
+
+    .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease; }
+
+    .socials a:hover i{
+    color: aqua; }
+
+    .footer-bottom {
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center; }
+
+    .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;  }
+
+    .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200; }
