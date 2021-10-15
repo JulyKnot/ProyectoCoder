@@ -108,6 +108,22 @@ body {
 	margin-bottom: 15px;
 	font-family: "Caveat",sans-serif; }
 
+  i{
+    color: #332020b7;
+    font-size: 2rem;
+    display: flex;
+    margin-right: 20px; }
+  
+  .itemNum{
+    font-size: 18px;
+    background: #d3929a;
+    border-radius: 50%;
+    height: 20px; 
+    width: 20px;
+    text-align: center;
+    border: 1px solid #d3929a;
+    line-height: 18px; }
+
 footer {
     margin-top: 25px;
     background: #111;
