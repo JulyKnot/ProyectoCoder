@@ -65,6 +65,12 @@ for (let i=0 ; i < carritos.length; i++){
     }) 
 }
 
+$(".product-list").prepend(`<div id="div1" style=display:none class="carrito">
+<h4>Añadido a la sección Carrito!</h4>
+</div>`)
+$(".product-list").click(() => {
+    $('#div1').slideDown(1500).delay(3000).fadeOut(1000);
+})
 
 //FUNCIONES PARA EL CARRITO / LOCAL STORAGE
 
@@ -73,10 +79,10 @@ function carrito(product) {
     numProdu = parseInt(numProdu);   
     if (numProdu){
         localStorage.setItem('cantidadCarrito' , numProdu + 1);
-        document.querySelector('.cart span').textContent= numProdu +1;
+        document.querySelector('.cart').textContent = numProdu +1;
     } else{
         localStorage.setItem('cantidadCarrito' , 1);
-        document.querySelector('.cart span').textContent = 1;
+        document.querySelector('.cart').textContent = 1;
     }
 
     setItem(product);

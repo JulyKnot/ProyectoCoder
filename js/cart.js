@@ -10,7 +10,7 @@ function mostrarCarro(){
         Object.values(itemsCarro).map(item => {
             contenedorProductos.innerHTML += `
             <div class='product'>
-            <ion-icon name="close-circle-outline"></ion-icon> 
+           <ion-icon name="close-circle-outline"></ion-icon>
             <img src="../assets/images/${item.nombre}.jpg">
             <span>${item.tag}   <span>
             </div>
@@ -18,9 +18,9 @@ function mostrarCarro(){
             >$${item.precio}  
             </div>
             <div class ="cantidad">
-            <ion-icon name="arrow-back-circle-outline"></ion-icon>
-            <span>${item.enCarrito}  <span>
-            <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+            <button class = "btn minus-btn" type="button">-</button>
+            <span>${item.enCarrito}<span>
+            <button class = "btn plus-btn" type="button">+</button>
             </div>
             <div class="total">
             $${item.enCarrito * item.precio},00

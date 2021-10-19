@@ -1,8 +1,8 @@
 
 //FORMULARIO
-
 let formularioContacto = $('#formulario');
-formularioContacto.addEventListener("submit",validacionForm);
+
+formularioContacto.on("submit",validacionForm);
 
 function validacionForm(e){
 	e.preventDefault();	
