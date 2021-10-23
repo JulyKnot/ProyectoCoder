@@ -129,6 +129,15 @@ transition: .3s; }
 .btn:hover{
   background-color: grey; }
 
+
+.btnApi{
+  color: white;
+  margin-left: 45%;
+  font-family: 'Cinzel', sans-serif;
+  background: black;
+
+
+}
 .small-icon1 {
     width: 400px;
     position: absolute;

@@ -65,11 +65,18 @@ for (let i=0 ; i < carritos.length; i++){
     }) 
 }
 
-$(".product-list").prepend(`<div id="div1" style=display:none class="carrito">
-<h4>Añadido a la sección Carrito!</h4>
+$(".card").append(`<div id="div1" style=display:none class="carrito">
+<h4>Añadido al Carrito!</h4>
 </div>`)
-$(".product-list").click(() => {
-    $('#div1').slideDown(1500).delay(3000).fadeOut(1000);
+$('#div1').css({
+        'background': 'rgba(240, 100, 34, 0.59)',
+        'paddingTop': '10px',
+        'paddingBottom': '7px',
+        'paddingRight': '4px'
+        
+})
+$(".buy-button").click(() => {
+    $('#div1').slideDown(1000).delay(2000).fadeOut(1000);
 })
 
 //FUNCIONES PARA EL CARRITO / LOCAL STORAGE
