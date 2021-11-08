@@ -2,12 +2,18 @@
 
 function mostrarCarro(){
     let itemsCarro = localStorage.getItem('Producto en carrito');
+
     itemsCarro= JSON.parse(itemsCarro);
+
     let contenedorProductos = document.querySelector('.products');
+
     let costoCarrito = localStorage.getItem('Costo total ');
+
     if(itemsCarro && contenedorProductos){
         contenedorProductos.innerHTML = '';
+
         Object.values(itemsCarro).map(item => {
+            
             contenedorProductos.innerHTML += `
             <div class='product'>
            <ion-icon name="close-circle-outline"></ion-icon>

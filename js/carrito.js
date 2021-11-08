@@ -60,7 +60,9 @@ let carritos = document.querySelectorAll('.buy-button');
 
 for (let i=0 ; i < carritos.length; i++){
         carritos[i].addEventListener('click', () => {
+
         carrito(product[i]);
+
         costoTotal(product[i]);
     }) 
 }
@@ -83,10 +85,13 @@ $(".buy-button").click(() => {
 
 function carrito(product) {
     let numProdu = localStorage.getItem('cantidadCarrito');
+
     numProdu = parseInt(numProdu);   
+
     if (numProdu){
         localStorage.setItem('cantidadCarrito' , numProdu + 1);
         document.querySelector('.cart').textContent = numProdu +1;
+
     } else{
         localStorage.setItem('cantidadCarrito' , 1);
         document.querySelector('.cart').textContent = 1;
@@ -96,7 +101,9 @@ function carrito(product) {
 }
 function setItem(product){
      let itemsCarro = localStorage.getItem('Producto en carrito');
+
         itemsCarro = JSON.parse(itemsCarro);
+
         if(itemsCarro != null) {
             if(itemsCarro[product.nombre] == undefined) {
                 itemsCarro = {
@@ -115,10 +122,9 @@ function setItem(product){
 }
  
 function costoTotal(product) {
-    //console.log('el precio del producto es ' , product.precio);
    
     let costoCarrito = localStorage.getItem('Costo total ');
-    console.log('el costo es ' , costoCarrito);
+
     if(costoCarrito != null) {
         costoCarrito= parseInt(costoCarrito);
         localStorage.setItem('Costo total ' , costoCarrito + product.precio);    
